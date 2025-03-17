@@ -144,6 +144,7 @@ header{
     border-radius: 2px;
     
  }
+ 
 /* here the screen media out */
 @media (max-width:568px) {
     .container{
@@ -245,6 +246,14 @@ header{
     align-items: center;
     padding: 0 3px;
 }
+.end{
+    position:fixed;
+    width:100%;
+    bottom: 0;
+    color:white;
+    margin: 20px auto;
+    
+ }
 
 /* end section of main in content*/
 /*mobile screnn*/
@@ -361,6 +370,7 @@ header{
         display: flex;
         align-items: center;
         padding: 0 3px;
+      
     }
     /*end main icons*/
     footer div{
@@ -456,7 +466,16 @@ header{
         border-radius: 2px;
         
      }
-    
+     .end {
+        position:fixed;
+        width:100%;
+        bottom: 0;
+        color:white;
+        margin: 20px auto;
+        left: 0;
+        
+     }
+   
 }
 /* SECOND SETION*/
 
@@ -543,7 +562,7 @@ footer .container{
 }
 .container p{
     text-transform: capitalize;
-        color: rgb(36, 29, 29);
+        color:white;
         margin: 0 auto;
         text-align: center;
 }
@@ -551,7 +570,7 @@ footer .container{
     footer .container{
         width: 100%;
         padding: 5px 0;
-            
+         margin: 20px auto;   
      } 
      .container p{
         width: 90%;
@@ -571,3 +590,5 @@ footer .container{
      
      } 
 }
+
+
